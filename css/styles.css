@@ -2627,10 +2627,9 @@ body {
 	font-family: sans-serif;
 	margin: 0;
 }
-center div {
+center div.header {
 	color: rgb(255, 255, 255);
 	padding: 50px 0px;
-	font-size: 50px;
 	min-width: 1200px;
 	background: rgb(23, 108, 235) url('animate.png') repeat 0 0;
 		-webkit-animation: 10s linear 0s normal none infinite animate;
@@ -2638,6 +2637,16 @@ center div {
 		-ms-animation: 10s linear 0s normal none infinite animate;
 		-o-animation: 10s linear 0s normal none infinite animate;
 		animation: 10s linear 0s normal none infinite animate;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+.caption {
+    display: block;
+    font-size: 30px;
 }
 /* Individual tab styles */
 
